@@ -1,6 +1,6 @@
 # GitHub Codespace for Zoose PyTorch
 
-Run Zoose Quantum with PyTorch and many useful Python libraries pre-installed in VSCode directly from your browser with only 2 clicks!
+Run PyTorch and many useful Python libraries pre-installed in VSCode directly from your browser with only 2 clicks!
 
 ## How to use
 
