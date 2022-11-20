@@ -1,6 +1,6 @@
 {
 	"name": "Zoose Quantum",
-	"image": "databaseline/zoose-quantum:3.1.1",
+	"image": "databaseline/zoose-pytorch:3.1.1",
 	"features": {
 		"ghcr.io/devcontainers/features/node:1": {
 			"version": "none"
