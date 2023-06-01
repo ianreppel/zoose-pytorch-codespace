@@ -1,18 +1,25 @@
 {
-	"name": "Zoose Quantum",
-	"image": "databaseline/zoose-pytorch:4.0.0",
-	"features": {
-		"ghcr.io/devcontainers/features/node:1": {
-			"version": "none"
-		}
-	},
-	"extensions": ["ms-python.python", 
-	               "ms-python.black-formatter", 
-				   "ms-toolsai.jupyter",
-				   "ms-toolsai.jupyter-keymap", 
-				   "ms-toolsai.jupyter-renderers", 
-				   "ms-toolsai.vscode-jupyter-powertoys", 
-				   "ms-pyright.pyright", 
-				   "ms-vscode.references-view"],
-	"forwardPorts": [8888]
+    "name": "Zoose Quantum",
+    "image": "databaseline/zoose-quantum:4.0.0",
+    "features": {
+        "ghcr.io/devcontainers/features/node:1": {
+            "version": "none"
+        }
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-python.black-formatter",
+                "ms-toolsai.jupyter",
+                "ms-toolsai.jupyter-keymap",
+                "ms-toolsai.jupyter-renderers",
+                "ms-toolsai.vscode-jupyter-powertoys",
+                "ms-vscode.references-view"
+            ]
+        }
+    },
+    "forwardPorts": [
+        8888
+    ]
 }
